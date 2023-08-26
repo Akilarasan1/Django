@@ -257,7 +257,7 @@
 						<!-- Destination -->
 						<div class="destination item">
 							<div class="destination_image">
-								<img src="{{dest.img.urls}}" alt="">
+								<img src="{{dest.img.url}}" alt="">
 								{%if dest.offer%}
 								<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
 								{%endif%}
@@ -365,7 +365,7 @@
 
 						<!-- News Post -->
 						<div class="news_post d-flex flex-md-row flex-column align-items-start justify-content-start">
-							<div class="news_post_image"><img src="static/images/news_2.jpg" alt=""></div>
+							<div class="news_post_image"><img src="{%static '/images/news_2.jpg' %}" alt=""></div>
 							<div class="news_post_content">
 								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
 									<div>01</div>
@@ -385,7 +385,7 @@
 
 						<!-- News Post -->
 						<div class="news_post d-flex flex-md-row flex-column align-items-start justify-content-start">
-							<div class="news_post_image"><img src="{% static '/images/news_3.jpg '%}" alt=""></div>
+							<div class="news_post_image"><img src="{% static 'images/news_3.jpg '%}" alt=""></div>
 							<div class="news_post_content">
 								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
 									<div>29</div>
@@ -488,7 +488,7 @@
 						<!-- Footer Contact Item -->
 						<div class="col-xl-4 footer_contact_col">
 							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
-								<div class="footer_contact_icon"><img src="{static '/images/around.svg' %}" alt=""></div>
+								<div class="footer_contact_icon"><img src="{%static '/images/around.svg' %}" alt=""></div>
 								<div class="footer_contact_title">send us a message</div>
 								<div class="footer_contact_list">
 									<ul>
